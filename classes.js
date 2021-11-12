@@ -1,8 +1,7 @@
 class Animal {
     constructor(type, name) {
-        this.type = type,
-        this.name = name,
-        this.age = 0,
+        this.typeOfPet = type,
+        this.petName = name,
         this.hunger = 10,
         this.thirst = 10,
         this.happiness = 10,
@@ -35,5 +34,5 @@ class Animal {
 }
 
 module.exports = {
-    Animal,
+    Animal
 }
