@@ -33,3 +33,7 @@ class Animal {
         this.hunger -= 1
     }
 }
+
+module.exports = {
+    Animal,
+}
